@@ -1,0 +1,5 @@
+<launch>
+    <arg name="model" default=""/>
+    <param name="model" value="$(arg model)"/>
+    <node pkg="traffic_weaving_prediction" name="predict" type="cvae_node_predict.py" output="screen"/>
+</launch>

@@ -1,0 +1,11 @@
+RobotOS
+StaticArrays
+JSON
+HDF5
+JLD
+IJulia
+Interact
+Plots
+GR
+LaTeXStrings
+julia 0.6

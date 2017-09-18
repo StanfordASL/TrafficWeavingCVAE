@@ -1,0 +1,8 @@
+std_msgs/Float32MultiArray car1
+std_msgs/Float32MultiArray car2
+std_msgs/Float32MultiArray extras
+std_msgs/Int32MultiArray traj_lengths
+std_msgs/Float32MultiArray car1_future
+std_msgs/Float32MultiArray car1_future_x
+std_msgs/Float32MultiArray car1_future_y
+int32 sample_ct
