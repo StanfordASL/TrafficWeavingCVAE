@@ -1,6 +1,6 @@
 # TrafficWeavingCVAE
 
-Paper: http://stanford.edu/~schmrlng/Schmerling.Leung.Vollprecht.Pavone.ICRA18.pdf
+Code accompanying "[Multimodal Probabilistic Model-Based Planning for Human-Robot Interaction](https://arxiv.org/abs/1710.09483)" (Edward Schmerling, Karen Leung, Wolf Vollprecht, Marco Pavone).
 
 Video: http://stanford.edu/~schmrlng/Schmerling.Leung.Vollprecht.Pavone.ICRA18.mp4
 
