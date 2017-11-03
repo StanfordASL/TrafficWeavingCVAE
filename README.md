@@ -15,7 +15,7 @@ Run `setup.py` located in the base directory of this repository before running a
 - [2. Exploring Predictions.ipynb](2.%20Exploring%20Predictions.ipynb)
   - Visualizing predicted human action sequence distributions: requires an exported model from step 1 and the ROS, Python, and Julia dependencies listed below. Before using this notebook  
   `roslaunch traffic_weaving_prediction predict.launch model:={exported_model_dir}`  
-  (wraps [`cvae_node_predict.py`](traffic_weaving_prediction/scripts/cvae_node_predict.py)).
+  (wraps [`cvae_node_predict.py`](traffic_weaving_prediction/scripts/cvae_node_predict.py)). Pretrained models (the results of running steps 0 and 1) may be found in the `pretrained_models` subdirectory of this repository, e.g., you may use `{exported_model_dir} = .../TrafficWeavingCVAE/pretrained_models/slim_features_default_hps`.
 - [3. Human-in-the-Loop Simulation.ipynb](3.%20Human-in-the-Loop%20Simulation.ipynb)
   - Testing prediction model and policy construction: requires an exported model from step 1 and the ROS, Python, Julia, and VTD dependencies listed below. Before using this notebook  
   `roslaunch vtd_interface human_in_the_loop.launch`  
