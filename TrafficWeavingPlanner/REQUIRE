@@ -5,6 +5,7 @@ HDF5
 JLD
 IJulia
 Interact
+Interpolations
 Plots
 GR
 LaTeXStrings
