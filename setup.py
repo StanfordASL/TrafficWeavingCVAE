@@ -39,7 +39,7 @@ if not os.path.exists(config["models_dir"]):
 # Downloading and unzipping rosbags
 yn = raw_input("Download human-human traffic weaving trajectory rosbags (Y/n)? ").lower() or "y"
 if yn == "y":
-    url = "http://stanford.edu/~schmrlng/human_human_traffic_weaving_rosbags.zip"
+    url = "https://github.com/StanfordASL/TrafficWeavingCVAE/releases/download/ICRA18/human_human_traffic_weaving_rosbags.zip"
     dst = os.path.join(config["data_dir"], "human_human_traffic_weaving_rosbags.zip")
     print "Downloading trajectory rosbags from " + url + " to " + dst
     urllib.urlretrieve(url, dst, progress_report)

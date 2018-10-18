@@ -4,7 +4,7 @@ Code accompanying "[Multimodal Probabilistic Model-Based Planning for Human-Robo
 
 Video: http://stanford.edu/~schmrlng/Schmerling.Leung.Vollprecht.Pavone.ICRA18.mp4
 
-Raw dataset: http://stanford.edu/~schmrlng/human_human_traffic_weaving_rosbags.zip
+Raw dataset: https://github.com/StanfordASL/TrafficWeavingCVAE/releases/download/ICRA18/human_human_traffic_weaving_rosbags.zip
 
 ## Usage
 Run `setup.py` located in the base directory of this repository before running anything else and follow the prompts (default choices in parentheses) in order to download/unzip the dataset linked above, as well as symlink the ROS package `traffic_weaving_prediction` and Julia package `TrafficWeavingPlanner` into their correct locations.
